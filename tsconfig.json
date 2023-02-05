@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    // "emitDecoratorMetadata": true,
+    // "experimentalDecorators": true,
+    // "module": "commonjs",
+    "moduleResolution": "node",
+    // "noImplicitAny": true,
+    // "outDir": "out",
+    "paths": {},
+    // "removeComments": false,
+    "sourceMap": true,
+    "strict": true,
+    // "suppressImplicitAnyIndexErrors": true,
+    "isolatedModules": false,
+    "target": "esnext",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "./**.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "umi",
+  ]
+}
